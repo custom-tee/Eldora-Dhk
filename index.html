@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELDORA DHK | Wear Your Identity</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">ELDORA</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#products" onclick="revealSection('products')">Collection</a></li>
+            <li><a href="#about" onclick="revealSection('about')">About</a></li>
+            <li><a href="#contact" onclick="revealSection('contact')">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Wear Minimal.<br>Feel Premium.</h1>
+            <p>Modern streetwear crafted for comfort and style.</p>
+            <button onclick="revealSection('products')">Shop Collection</button>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products hidden-section">
+        <h2 class="section-title">Featured Collection</h2>
+        <div class="grid">
+            <!-- JavaScript will automatically put products here -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about hidden-section">
+        <div class="about-container">
+            <p>At ELDORA, we craft premium apparel for those who stand out.<br>
+            Minimal design, bold identity, unmatched comfort.</p>
+            <br>
+            <p>Every piece is made with purpose turning ideas into wearable statements. ⚡</p>
+            <br>
+            <p>More than clothing.<br>
+            It’s expression. It’s presence. It’s ELDORA. 🖤</p>
+            <br>
+            <p><strong>Wear Your Identity.</strong></p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact hidden-section">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-card">
+            <p>Have questions or want to place an order?</p>
+            <a href="https://www.instagram.com/eldora_dhk?igsh=MWVzNnV6cnBudGcwMQ==" target="_blank" class="insta-btn">Message us on Instagram</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
